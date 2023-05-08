@@ -46,6 +46,10 @@
   flex-direction: column;
 }
 
+.PostInput {
+  height: 100px;
+  width: 300px;
+}
 
 .navHeader {
   width: 100%;
@@ -96,6 +100,9 @@
   padding: 10px;
   background-color: #4b9acf;
   margin-bottom: 5px;
+  display: grid;
+  grid-template-areas: "l r";
+  grid-template-columns: 2fr 8fr;
 }
 
 .userMainPageRightSide {
@@ -126,4 +133,13 @@
 .userFooterPage li {
   flex: 1;
   text-align: center;
+}
+
+.otherUserInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.otherUserInfo img {
+ width: 200px;
 }
