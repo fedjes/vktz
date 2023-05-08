@@ -6,7 +6,7 @@ import RegistrationForm from "./RegistrationForm";
 
 const LoginPage = () => {
     return (
-      <div>
+      <div className="loginPage">
         <h2>Login</h2>
         <LoginForm />
         <h2>Register</h2>
