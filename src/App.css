@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.navHeader {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+
+.navHeader ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navHeader li {
+  flex: 1;
+  text-align: center;
+}
+
+.mainPagesWrapper {
+  display: grid;
+  grid-template-areas: "l r";
+  grid-template-columns: 2fr 8fr;
+}
+
+.userMainPageLeftSide {
+background-color: rebeccapurple;
+grid-area: l;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.userMainPageLeftSide img {
+  width: 100%;
+}
+
+.userMainPageLeftSide ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userMainPageLeftSide li {
+  padding: 10px;
+  background-color: #4b9acf;
+  margin-bottom: 5px;
+}
+
+.userMainPageRightSide {
+grid-area: r;
+background-color: green;
+}
+
+.userMainPageRightSide p {
+  padding: 0 5px 0 5px;
+}
+
+.userFooterPage {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: brown;
+}
+
+.userFooterPage ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.userFooterPage li {
+  flex: 1;
+  text-align: center;
+}
