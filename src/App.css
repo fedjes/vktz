@@ -32,10 +32,20 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
 
 .navHeader {
   width: 100%;
@@ -65,11 +75,11 @@
 }
 
 .userMainPageLeftSide {
-background-color: rebeccapurple;
-grid-area: l;
-display: flex;
-flex-direction: column;
-text-align: center;
+  background-color: rebeccapurple;
+  grid-area: l;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .userMainPageLeftSide img {
@@ -89,8 +99,8 @@ text-align: center;
 }
 
 .userMainPageRightSide {
-grid-area: r;
-background-color: green;
+  grid-area: r;
+  background-color: green;
 }
 
 .userMainPageRightSide p {
