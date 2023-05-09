@@ -4,7 +4,7 @@ const UserPageHeader = () => {
     return (
         <nav className="navHeader">
             <ul>
-                <li>main</li>
+                <li><Link to="/user">main</Link></li>
                 <li>news</li>
                 <li>music</li>
                 <li><Link to='/login'>settings</Link></li>
