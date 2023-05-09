@@ -8,40 +8,40 @@ const OtherUserInfo = () => {
             <UserPageHeader />
             <UserMainPageLeftSide />
             <div className="friendCard">
-            <img src="" alt="otherUserInfoImg"/>
-            <ul>
-                <li>name</li>
-                <li>Secondname</li>
-                <li>age</li>
-                <li>aducation</li>
-            </ul>
-            <button>addFriend</button>
-            <br />
-            <button>removeFriend</button>
+                <img src="" alt="otherUserInfoImg" />
+                <ul>
+                    <li>aucation</li>
+                    <li>age</li>
+                    <li>id</li>
+                    <li>name</li>
+                </ul>
+                <button>addFriend</button>
+                <br />
+                <button>removeFriend</button>
             </div>
             <div className="friendCard">
-            <img src="" alt="otherUserInfoImg"/>
-            <ul>
-                <li>name</li>
-                <li>Secondname</li>
-                <li>age</li>
-                <li>aducation</li>
-            </ul>
-            <button>addFriend</button>
-            <br />
-            <button>removeFriend</button>
+                <img src="" alt="otherUserInfoImg" />
+                <ul>
+                    <li>aucation</li>
+                    <li>age</li>
+                    <li>id</li>
+                    <li>name</li>
+                </ul>
+                <button>addFriend</button>
+                <br />
+                <button>removeFriend</button>
             </div>
             <div className="friendCard">
-            <img src="" alt="otherUserInfoImg"/>
-            <ul>
-                <li>name</li>
-                <li>Secondname</li>
-                <li>age</li>
-                <li>aducation</li>
-            </ul>
-            <button>addFriend</button>
-            <br />
-            <button>removeFriend</button>
+                <img src="" alt="otherUserInfoImg" />
+                <ul>
+                    <li>aucation</li>
+                    <li>age</li>
+                    <li>id</li>
+                    <li>name</li>
+                </ul>
+                <button>addFriend</button>
+                <br />
+                <button>removeFriend</button>
             </div>
             <UserFooterPage />
         </div>

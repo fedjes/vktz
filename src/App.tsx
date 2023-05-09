@@ -8,6 +8,8 @@ import UserPage from './components/UserPage';
 import OtherUser from './components/otherUser/OtherUser';
 import ShowFormOrUser from './components/showFormOrUser/ShowFormOrUser';
 
+
+
 const router = createBrowserRouter([
   {
     path: "/otherUser",
@@ -25,8 +27,11 @@ const router = createBrowserRouter([
 
 const App = () => {
   
+  // <LoginPage/>
   return (
     <RouterProvider router={router} />
+    
+    
     // <ShowFormOrUser />
     // <UserPage />
   //  <OtherUser />

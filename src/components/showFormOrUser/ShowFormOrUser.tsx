@@ -12,7 +12,7 @@ const ShowFormOrUser: React.FC = () => {
     };
     
     return (
-        !isAuthentificated ? <UserPage /> : <LoginPage />
+        !isAuthentificated ? <LoginPage /> : <UserPage />
     );
 };
 
