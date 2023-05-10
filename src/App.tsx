@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ReactDOM } from 'react';
-import {createBrowserRouter, RouterProvider,} from 'react-router-dom';
+import {createHashRouter, RouterProvider,} from 'react-router-dom';
 import LoginPage from './components/LoginPage';
 import UserPage from './components/UserPage';
 import OtherUser from './components/otherUser/OtherUser';
@@ -10,7 +10,7 @@ import ShowFormOrUser from './components/showFormOrUser/ShowFormOrUser';
 import RandomUser from './components/RandomUser';
 import Friends from './components/Friends';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/otherUser",
     element: <OtherUser/>
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     element: <UserPage/>
   },
   {
-    path: "/login",
+    path: "/",
     element: <LoginPage/>
   },
   {
