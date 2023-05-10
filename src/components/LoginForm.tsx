@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import react, { FormEventHandler } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -18,7 +18,7 @@ const LoginForm = () => {
     .then((response) => {
      let localStorageId = response.data.id;
      localStorage.setItem('userId', localStorageId);
-      console.log(response.data);
+      // console.log(response.data);
       history('/user');
     })
     .catch((error) => {

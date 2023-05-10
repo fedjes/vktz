@@ -7,8 +7,8 @@ import LoginPage from './components/LoginPage';
 import UserPage from './components/UserPage';
 import OtherUser from './components/otherUser/OtherUser';
 import ShowFormOrUser from './components/showFormOrUser/ShowFormOrUser';
-
-
+import RandomUser from './components/RandomUser';
+import Friends from './components/Friends';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage/>
+  },
+  {
+    path: "/users/:userId",
+    element: <RandomUser/>
+  },
+  {
+    path: "/user/friends",
+    element: <Friends/>
   },
 ])
 

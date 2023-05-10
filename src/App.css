@@ -96,6 +96,10 @@
   margin: 0;
 }
 
+.randomUser {
+  background-color: aquamarine;
+}
+
 .userMainPageLeftSide li {
   padding: 10px;
   background-color: #4b9acf;
@@ -141,5 +145,9 @@
 }
 
 .otherUserInfo img {
+ width: 200px;
+}
+
+.friendsWrapper img {
  width: 200px;
 }
