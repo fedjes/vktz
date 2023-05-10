@@ -6,20 +6,20 @@ import axios from "axios";
 
 
 function UserPage() {
-    // const userId = localStorage.getItem('userId');
+    const userId = localStorage.getItem('userId');
     // console.log('local ', userId);
 
-    // axios.get(`https://ancient-smoke-8603.fly.dev/users/${userId}`)
-    //     .then((response) => {
-    //         console.log(response.data);
-    //     })
-    //     .catch((error) => {
-    //         console.error(error);
-    //     });
+    axios.get(`https://ancient-smoke-8603.fly.dev/users/${userId}`)
+        .then((response) => {
+            console.log(response.data);
+        })
+        .catch((error) => {
+            console.error(error);
+        });
     return (
 
 
-        <div>
+        <div className="test">
 
             <UserPageHeader />
             <UserMainPage />
