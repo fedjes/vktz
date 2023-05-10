@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vktz/static/css/main.929ca6f4.css",
+    "main.js": "/vktz/static/js/main.d93a51c8.js",
+    "static/js/787.7e6633ba.chunk.js": "/vktz/static/js/787.7e6633ba.chunk.js",
+    "index.html": "/vktz/index.html",
+    "main.929ca6f4.css.map": "/vktz/static/css/main.929ca6f4.css.map",
+    "main.d93a51c8.js.map": "/vktz/static/js/main.d93a51c8.js.map",
+    "787.7e6633ba.chunk.js.map": "/vktz/static/js/787.7e6633ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.929ca6f4.css",
+    "static/js/main.d93a51c8.js"
+  ]
+}
